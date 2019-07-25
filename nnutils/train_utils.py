@@ -50,10 +50,6 @@ flags.DEFINE_boolean('display_visuals', True, 'whether to display images')
 flags.DEFINE_boolean('print_scalars', True, 'whether to print scalars')
 flags.DEFINE_boolean('plot_scalars', True, 'whether to plot scalars')
 flags.DEFINE_boolean('is_train', True, 'Are we training ?')
-flags.DEFINE_integer('display_id', 1, 'Display Id')
-flags.DEFINE_integer('display_winsize', 256, 'Display Size')
-flags.DEFINE_integer('display_port', 8097, 'Display port')
-flags.DEFINE_integer('display_single_pane_ncols', 0, 'if positive, display all images in a single visdom web panel with certain number of images per row.')
 
 #--------- training class ---------#
 #----------------------------------#
